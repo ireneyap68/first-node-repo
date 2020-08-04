@@ -29,5 +29,10 @@
 const moment = require('moment')
 console.log(moment().format("MMM Do YYYY"))
 
+const emptyTrash = require('empty-trash');
+(async () => {
+	await emptyTrash();
+})();
+
 
 console.log(moment('03-21-1994', 'MM DD YYYY').format("dddd [the] Do [of] MMMM [in the year] YYYY"));
