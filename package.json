@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "empty-trash": "^3.0.0",
+    "empty-trash": "^4.0.0",
     "moment": "^2.27.0"
   }
 }
